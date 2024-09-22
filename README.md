@@ -6,6 +6,7 @@ mapping doesn't work
 
 * `@Entity TodoTask` is the primary entity, which contains most of the biz logic.
 * `@Entity TodoTaskStatistic` contains some statistics logic, and only for display purpose.
+* `@EntityView TodoView` put them together, and return an enriched DTO
 
 This feature works in Quarkus 3.13.3
 
