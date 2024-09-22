@@ -1,0 +1,9 @@
+*
+!.gitignore
+!copyright
+!copyright/*
+!codeStyles
+!codeStyles/*
+!icon.png
+# GitHub Copilot persisted chat sessions
+/copilot/chatSessions

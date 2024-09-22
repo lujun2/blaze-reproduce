@@ -1,0 +1,25 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+end_of_line = lf
+
+[*.bat]
+end_of_line = crlf
+
+[*.{xml,xsd}]
+charset = utf-8
+
+[*.{kt,kts}]
+charset = utf-8
+ktlint_no-wildcard-imports = disabled
+ktlint_standard_no-wildcard-imports = disabled
+
+[*.java]
+charset = utf-8

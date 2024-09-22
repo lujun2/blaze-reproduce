@@ -1,0 +1,53 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Local environment
+.env
+
+# Generated files
+gen/
+
+.fleet/
+.quarkus/
+deps.txt
+deps.*.txt
+
+*.doc#
+*.docx#
+
+.kotlin/
+
+Thumbs.db
+
+pki/*.pem
